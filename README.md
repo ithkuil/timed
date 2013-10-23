@@ -1,25 +1,25 @@
 =======
 timed
-=====
+=======
 
 Simplifies high resolution timing for profiling
 
 Usage exampe:
 
 ```javascript
-t = require('timed');
+timed = require('timed');
 
 //Start the timer
-t.reset();
+timed.reset();
 
 setTimeout(function() {
   //should be about 1000 ms
-  console.log('Elapsed: ' + t.since() + ' ms');  
+  console.log('Elapsed: ' + timed.since() + ' ms');  
 
   t.reset();  //timer starts again now from 0
   setTimeout(function() {
-    //This one should be about 1500 ms
-    console.log('Elapsed: ' + t.since() + 'ms');
+    //This one should be about 1500 ms rounded to 3 decimal places
+    console.log('Elapsed: ' + timed.rounded() + 'ms');
   }, 1500);
   
 
