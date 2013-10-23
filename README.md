@@ -1,3 +1,9 @@
+=======
+timed
+=====
+
+Simplifies high resolution timing for profiling
+
 Usage exampe:
 
 ```javascript
@@ -19,5 +25,3 @@ setTimeout(function() {
 }, 1000);
 
 ```
-
-
