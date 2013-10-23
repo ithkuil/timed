@@ -1,0 +1,29 @@
+{
+  "name": "timed",
+  "version": "0.0.1",
+  "description": "Simplifies high resolution timing for profiling",
+  "main": "lib/timed.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "pretest": "./build",
+    "prepublish": "./build"
+  },
+  "devDependencies": {
+    "toffee-script": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ithkuil/timed.git"
+  },
+  "keywords": [
+    "hrtime",
+    "timing",
+    "profiling",
+    "milliseconds"
+  ],
+  "author": "Jason Livesay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ithkuil/timed/issues"
+  }
+}
