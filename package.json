@@ -1,6 +1,6 @@
 {
   "name": "timed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simplifies high resolution timing for profiling",
   "main": "lib/timed.js",
   "scripts": {
