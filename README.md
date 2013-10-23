@@ -9,7 +9,8 @@ Usage exampe:
 ```javascript
 t = require('timed');
 
-t.reset();  #Start the timer
+//Start the timer
+t.reset();
 
 setTimeout(function() {
   //should be about 1000 ms
